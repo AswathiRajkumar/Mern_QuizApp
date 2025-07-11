@@ -1,0 +1,87 @@
+[
+  {
+    "questionText": "What does HTML stand for?",
+    "options": ["Hyper Text Markup Language", "Hot Mail", "How To Make Links", "Hyperlinks and Text Markup Language"],
+    "correctAnswer": "Hyper Text Markup Language"
+  },
+  {
+    "questionText": "Which CSS property controls the text size?",
+    "options": ["font-style", "text-style", "text-size", "font-size"],
+    "correctAnswer": "font-size"
+  },
+  {
+    "questionText": "Inside which HTML element do we put JavaScript code?",
+    "options": ["<js>", "<script>", "<javascript>", "<code>"],
+    "correctAnswer": "<script>"
+  },
+  {
+    "questionText": "Which of the following is used to style HTML documents?",
+    "options": ["CSS", "Python", "React", "Node.js"],
+    "correctAnswer": "CSS"
+  },
+  {
+    "questionText": "Which method is used to print messages in the browser console in JavaScript?",
+    "options": ["console.write()", "console.log()", "print()", "document.write()"],
+    "correctAnswer": "console.log()"
+  },
+  {
+    "questionText": "Which keyword is used for function in Python?",
+    "options": ["func", "function", "def", "define"],
+    "correctAnswer": "def"
+  },
+  {
+    "questionText": "What is the output of: print(2 ** 3)?",
+    "options": ["6", "8", "9", "5"],
+    "correctAnswer": "8"
+  },
+  {
+    "questionText": "Which of the following is a mutable data type in Python?",
+    "options": ["tuple", "string", "int", "list"],
+    "correctAnswer": "list"
+  },
+  {
+    "questionText": "How do you insert comments in Python?",
+    "options": ["/* comment */", "# comment", "// comment", "<!-- comment -->"],
+    "correctAnswer": "# comment"
+  },
+  {
+    "questionText": "Which of the following is not a core data type in Python?",
+    "options": ["Lists", "Dictionary", "Tuples", "Class"],
+    "correctAnswer": "Class"
+  },
+  {
+    "questionText": "Which of the following is not a property of a transaction in DBMS?",
+    "options": ["Atomicity", "Consistency", "Deadlock", "Durability"],
+    "correctAnswer": "Deadlock"
+  },
+  {
+    "questionText": "What does SQL stand for?",
+    "options": ["Structured Question Language", "Stylish Query Language", "Structured Query Language", "Standard Query List"],
+    "correctAnswer": "Structured Query Language"
+  },
+  {
+    "questionText": "Which command is used to remove all records from a table in SQL?",
+    "options": ["DELETE", "REMOVE", "TRUNCATE", "DROP"],
+    "correctAnswer": "TRUNCATE"
+  },
+  {
+    "questionText": "What is a foreign key in DBMS?",
+    "options": ["A key from a different database", "A key that uniquely identifies a row", "A key used to reference another table", "A key that changes frequently"],
+    "correctAnswer": "A key used to reference another table"
+  },
+  {
+    "questionText": "Which of the following is not a principle of OOP?",
+    "options": ["Encapsulation", "Polymorphism", "Abstraction", "Compilation"],
+    "correctAnswer": "Compilation"
+  },
+  {
+    "questionText": "What is inheritance in OOP?",
+    "options": ["Copying data from one object to another", "Using one class inside another", "Deriving a new class from an existing one", "Changing one class into another"],
+    "correctAnswer": "Deriving a new class from an existing one"
+  },
+  {
+    "questionText": "Which keyword is used to create a class in most OOP languages?",
+    "options": ["define", "function", "class", "object"],
+    "correctAnswer": "class"
+  }
+]
