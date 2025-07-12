@@ -1,4 +1,4 @@
-/* Fullscreen and background styling */
+
 body, html {
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@ body, html {
   align-items: center;
 }
 
-/* Wraps entire app content */
 .App {
   width: 100%;
   height: 100vh;
@@ -18,8 +17,6 @@ body, html {
   justify-content: center;
   align-items: center;
 }
-
-/* Quiz box and start screen box with gradient */
 .quiz-box, .result-box {
   background: linear-gradient(to bottom right, #ffffff, #e0f7fa);
   padding: 40px 30px;
@@ -29,15 +26,12 @@ body, html {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
-
-/* Welcome heading */
 .quiz-box h2 {
   font-size: 28px;
   margin-bottom: 10px;
   color: #333;
 }
 
-/* Input box for name */
 .input-box {
   width: 80%;
   padding: 12px;
@@ -47,24 +41,18 @@ body, html {
   border: 1px solid #ccc;
   outline: none;
 }
-
-/* Timer */
 .timer {
   font-size: 18px;
   color: #e63946;
   margin: 10px 0;
   font-weight: bold;
 }
-
-/* Question text */
 .question-text {
   font-size: 20px;
   margin: 20px 0 10px;
   font-weight: bold;
   color: #333;
 }
-
-/* Option buttons */
 .options {
   display: flex;
   flex-direction: column;
@@ -90,14 +78,12 @@ input[type="radio"] {
   margin-right: 10px;
 }
 
-/* Warning for validation */
 .warning {
   color: #e63946;
   margin-top: 10px;
   font-size: 14px;
 }
 
-/* Submit / Next / Start buttons */
 .next-btn {
   margin-top: 25px;
   padding: 12px 25px;
@@ -113,15 +99,12 @@ input[type="radio"] {
 .next-btn:hover {
   background-color: #0056c7;
 }
-
-/* Result screen motivation message */
 .motivation {
   font-size: 18px;
   font-style: italic;
   margin-top: 15px;
   color: #555;
 }
-/* Timer progress bar */
 .progress-bar-container {
   width: 100%;
   height: 10px;
