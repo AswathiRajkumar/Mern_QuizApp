@@ -11,7 +11,6 @@ function QuizApp({ username }) {
   const [warning, setWarning] = useState("");
   const [timeLeft, setTimeLeft] = useState(30);
 
-  // 🔁 Shuffle helper
   const shuffleArray = (array) => {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -20,8 +19,6 @@ function QuizApp({ username }) {
     }
     return shuffled;
   };
-
-  // 🔁 Fetch and shuffle questions + options
   useEffect(() => {
     axios
       .get("http://localhost:5000/api/quiz")
@@ -35,7 +32,6 @@ function QuizApp({ username }) {
       .catch((err) => console.error("Error fetching quiz:", err));
   }, []);
 
-  // ⏳ Timer logic with auto next
   useEffect(() => {
     if (timeLeft === 0) {
       const updatedAnswers = [...userAnswers];
