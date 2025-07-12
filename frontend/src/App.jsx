@@ -16,7 +16,6 @@ function App() {
     setQuizStarted(true);
   };
 
-  // Start screen
   if (!quizStarted) {
     return (
       <div className="App">
@@ -41,7 +40,6 @@ function App() {
     );
   }
 
-  // Once quiz starts
   return <QuizApp username={username} />;
 }
 
